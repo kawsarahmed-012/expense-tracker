@@ -1,0 +1,25 @@
+.expense-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+}
+
+.expense-filter p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.expense-filter__select {
+  color: var(--rich-black-fogra-39);
+  background-color: var(--light-cyan);
+  border-radius: 0.4rem;
+  padding: 0.1rem 0.2rem;
+  border: none;
+  font-size: 2rem;
+}
+
+.expense-filter__option {
+  color: black;
+}

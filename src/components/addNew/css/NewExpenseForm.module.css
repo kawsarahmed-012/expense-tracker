@@ -1,0 +1,48 @@
+.form-controls {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-controls > div {
+  width: 48%;
+  max-width: 40rem;
+  padding: 1rem;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+  color: var(--rich-black-fogra-39);
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  color: var(--light-cyan);
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 0.8rem;
+  width: 30rem;
+  width: 100%;
+  color: var(--gunmetal);
+  padding: 1.2rem 2rem;
+}
+
+.action-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 640px) {
+  .form-controls {
+    margin-bottom: 2rem;
+  }
+  .form-controls > div {
+    width: 100%;
+    max-width: 100%;
+  }
+}

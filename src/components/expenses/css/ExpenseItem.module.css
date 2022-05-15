@@ -1,0 +1,37 @@
+.expense {
+  display: flex;
+  align-items: center;
+  background-color: var(--gunmetal);
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}
+
+.expense__title {
+  margin-right: auto;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.expense__amount {
+  font-size: 2rem;
+  background-color: var(--rich-black-fogra-39);
+  padding: 1.2rem 1.8rem;
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0.4rem 2.4rem;
+  font-weight: 600;
+}
+
+@media (max-width: 580px) {
+  .expense {
+    padding: 0.8rem 1.2rem;
+  }
+  .expense__title {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    text-align: left;
+  }
+  .expense__amount {
+    font-size: 1.6rem;
+  }
+}
