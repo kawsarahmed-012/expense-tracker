@@ -25,7 +25,9 @@ This was my first project with reactjs. This a basic expense tracker app which h
    ![Add new expense](./preview/add-new-expense.png)
 2. View visual cost representation of each month.
    ![Visualize expense by month in each year.](./preview/expense-bar-by-month.png)
-3. View expenses by year.
+3. Filter by year.
+   ![filter by year.](./preview/filter-by-year.png)
+4. View expenses by year.
    ![List view of all expenses filtered by year](./preview/expenses-list.png)
 
 ### Preview
